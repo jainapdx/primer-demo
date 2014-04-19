@@ -1,3 +1,45 @@
 body {
-	color: green;
+    font-family: Helvetica;
+    color: white;
+}
+
+section {
+    border: 2px dashed purple;
+    display: inline-block;
+}
+
+div {
+    padding: 5px;
+    margin: 5px;
+}
+
+#headingBox {
+    background-color: red;
+    width: 100px;
+    float: left;
+}
+
+#logoBox {
+    background-color: orange;
+    width: 300px;
+    float: left;
+}
+
+#navBox {
+    background-color: green;
+    width: 100px;
+    height: 150px;
+    float: left;
+}
+
+#contentBox {
+    background-color: blue;
+    width: 200px;
+    float: left;
+}
+
+#footerBox {
+    background-color: purple;
+    width: 300px;
+    //float: left;
 }
